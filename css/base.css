@@ -18,10 +18,6 @@
     margin-top: 3px;
     padding-left: 9px;
 }
-.form-2fGMdU {
-    padding-left: 20px;
-    padding-right: 18px;
-}
 .slideBody-2nMrnU {
     background: #282a34;
 }
@@ -32,6 +28,17 @@
     border-bottom-color:#0069ff;
 }
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .cozyMessage-3V1Y8y {
-    padding: 0 0 0 0;
+    padding: 0px 0px 0px 0px;
 }
-#test
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .cozyMessage-3V1Y8y.mentioned-xhSam7:before {
+    background: #006aff;
+    border-radius: 5px;
+    width: 6px;
+}
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .cozyMessage-3V1Y8y.mentioned-xhSam7::after {
+    background: rgb(0, 106, 255, 0.25);
+    border-radius: 5px;
+}
+.scrollableContainer-2NUZem {
+    background: #171a1f;
+}
